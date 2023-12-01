@@ -2,3 +2,29 @@
     margin: 0;
     padding: 0;
 }
+
+main {
+    display: flex;
+}
+
+.logInContainer {
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageImageContainer {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.mainImg {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
