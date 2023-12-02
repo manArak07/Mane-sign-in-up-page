@@ -13,10 +13,40 @@
     <body>
         <main>
             <div class="logInContainer">
-                <div class="welcomeTxt">
-                    <h1>Welcome back!</h1>
-                    <h3>Enter your Credentials to access your account</h3>
-                </div>
+                <div class="mainLogIn">
+                    <div class="welcomeTxt">
+                        <h1>Welcome back!</h1>
+                        <h3>Enter your Credentials to access your account</h3>
+                    </div>
+                    <div class="formContainer">
+                        <form id="logInForm">
+                            <div class="emailContainer">
+                                <label for="email" class="emailLbl lblStyle">Email address</label>
+                                <input type="email" id="email" name="email" placeholder="Enter yor email">
+                            </div>
+                            <div class="passwordContainer">
+                                <div class="psswdLblSide">
+                                    <label for="password" class="passwordLbl lblStyle">Password</label>
+                                    <a href="#" class="forgotPsswdLink">
+                                        <label for="forgotPsswd" class="forgotPsswdStyle">forgot password</label>
+                                    </a>
+                                </div>
+                                <input type="password" id="email" name="password" placeholder="Enter yor password">
+                            </div>
+
+                            <div class="checkbox">
+                                <input type="checkbox" id="checkboxInput" name="checkbox">
+                                <label for="checkbox" class="checkboxLbl">Remember for 30 days</label>
+                            </div>
+
+                            <div class="logInBtnContainer">
+                                <a href="#" class="logInBtnLink">
+                                    <button class="logInBtn">Login</button>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>        
             </div>   
             <div class="pageImageContainer">
                 <img class="mainImg" src="https://images.unsplash.com/photo-1525498128493-380d1990a112?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Page main Image">
