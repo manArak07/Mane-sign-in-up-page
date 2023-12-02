@@ -24,7 +24,6 @@ main {
     flex-grow: 0;
     flex-basis: 50%;
     display: flex;
-    width: 100%;
     justify-content: flex-end;
     object-fit: cover;
     position: absolute;
@@ -50,8 +49,7 @@ main {
     font-size: 18px;
 }
 
-
-#email {
+.email {
     width: 120%;
     height: 10px;
     border-radius: 8px;
