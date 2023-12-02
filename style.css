@@ -10,10 +10,10 @@ main {
 }
 
 .logInContainer {
-    flex-grow: 0;
-    flex-basis: 50%;
     min-height: 100vh;
     display: flex;
+    flex-grow: 0;
+    flex-basis: 50%;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -21,18 +21,17 @@ main {
 }
 
 .pageImageContainer {
-    flex-grow: 0;
-    flex-basis: 50%;
     display: flex;
+    background-image: url("https://images.unsplash.com/photo-1525498128493-380d1990a112?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     justify-content: flex-end;
-    object-fit: cover;
+    width: 40%;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
     position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
-}
-
-.mainImg {
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 }
@@ -165,4 +164,41 @@ main {
     color: #0F3DDE;
     text-decoration: none;
     margin-left: 5px;
+}
+
+@media screen and (max-width:600px) {
+    .welcomeTxt {
+        font-size: 10px;
+        width: 50%;
+    }
+
+    .email {
+        width: 60%;
+    }
+
+    .logInBtn {
+        width: 60%;
+    }
+
+    .sugVariantsLogIn {
+        display: block;
+    }
+
+    .signUpTxtContainer {
+        display: block;
+    }
+
+    .otherVarLogIn {
+        margin-top: 50px;
+    }
+    .forgotPsswdLink {
+        margin-left: 20px;
+    }
+    .forgotPsswdStyle {
+        font-size: 10px;
+    }
+
+    .appleLogInBtn {
+        margin-left: 5px;
+    }
 }
