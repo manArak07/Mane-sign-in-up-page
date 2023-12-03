@@ -58,6 +58,15 @@ main {
     padding: 10px;
 }
 
+.password {
+    width: 120%;
+    height: 10px;
+    border-radius: 8px;
+    border: 1px solid #D9D9D9;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+}
 
 .forgotPsswdLink {
     margin-left: 50px;
@@ -80,10 +89,6 @@ main {
 
 .logInBtnContainer {
     margin-top: 20px;
-}
-
-.logInBtnLink {
-    text-decoration: none;
 }
 
 .logInBtn {
@@ -173,6 +178,10 @@ main {
     }
 
     .email {
+        width: 60%;
+    }
+
+    .password {
         width: 60%;
     }
 
